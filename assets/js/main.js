@@ -53,7 +53,7 @@ let swiperHome = new Swiper('.home__swiper', {
     centeredSlides: 'auto',
 
     autoplay:{
-        deplay: 3000,
+        delay: 3000,
         disableOnInteraction: false, 
     },
 
