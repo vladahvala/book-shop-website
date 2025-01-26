@@ -167,7 +167,7 @@ img {
 }
 
 /* Navigation for mobile devices */
-@media screen and (min-width: 1150px) {
+@media screen and (max-width: 1150px) {
   .nav__menu{
     position: fixed;
     bottom: 0;
@@ -425,7 +425,25 @@ img {
 }
 
 /*=============== SERVICES ===============*/
+.services__container{
+  row-gap: 3rem;
+}
 
+.services__card{
+  text-align: center;
+}
+
+.services__card i{
+  display: block;
+  font-size: 3rem;
+  color: var(--first-color);
+  margin-bottom: 1rem;
+}
+
+.services__title{
+  font-size: var(--h3-font-size);
+  margin-bottom: .5rem;
+}
 
 /*=============== FEATURED ===============*/
 
